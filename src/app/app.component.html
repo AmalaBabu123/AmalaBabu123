@@ -1,0 +1,30 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="sticky-top">
+        <div class="row text-white header-bar">
+          <div class="col-md-12 text-center">
+            <div class="pt-4 pb-4">
+              <h1><span class="font-weight-bold position-static">REST </span>
+                <span>COUNTRIES</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="row search-bar">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-4 offset-md-4">
+                <div class="pt-3 pb-3">
+                  <app-search (searchInputValue)="callSearch($event)"></app-search>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <app-landing-page [searchInputValue]="searchInputValue"></app-landing-page>
+    </div>
+  </div>
+</div>

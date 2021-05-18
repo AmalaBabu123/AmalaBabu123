@@ -1,0 +1,36 @@
+<div class="card  tile-container shadow-sm  m-5">
+    <div class="tile-image text-white " [ngStyle]="{backgroundImage: 'url('+data.flag+')'}">
+        <div class="text-white bg-image image-text">
+            <h3>{{data.name}}</h3>
+            <h6 class="font-weight-light">Country</h6>
+        </div>
+    </div>
+    <div class="card-body card-body-style">
+        <table class="table table-borderless borderless">
+            <thead>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="font-weight-bold">Region</td>
+                    <td>{{data.region}}</td>
+                </tr>
+                <tr>
+                    <td class="font-weight-bold">Subregion</td>
+                    <td>{{data.subregion}}</td>
+                </tr>
+                <tr>
+                    <td class="font-weight-bold">Numeric Code</td>
+                    <td>{{data.numericCode}}</td>
+                </tr>
+                <tr>
+                    <td class="font-weight-bold">Demonym</td>
+                    <td>{{data.demonym}}</td>
+                </tr>
+                <tr>
+                    <td class="font-weight-bold">Capital</td>
+                    <td>{{data.capital}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

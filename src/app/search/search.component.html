@@ -1,0 +1,5 @@
+<div class="input-group">
+    <input type="search" class="form-control rounded p-4" placeholder="Country or Region ..." #searchInput
+        (keyup)="emitSearch(searchInput.value)" />
+    <button type="button" class="btn btn-primary" (click)="emitSearch(searchInput.value)">Search</button>
+</div>

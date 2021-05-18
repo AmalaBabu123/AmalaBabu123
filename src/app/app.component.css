@@ -1,0 +1,12 @@
+body{
+    margin-top:20px;
+    background:#dcdcdc;
+    padding: 0px;
+    position: relative;
+}
+.search-bar{
+    background-color: rgb(85, 85, 133);
+}
+.header-bar{
+    background-color: rgb(33, 33, 77);
+}
